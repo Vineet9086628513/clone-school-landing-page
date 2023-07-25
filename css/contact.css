@@ -88,3 +88,45 @@ input, textarea{
     cursor: pointer;
 }
 
+/*=================Media Query Table============================*/
+@media screen and (max-width : 1024px){
+    .contact{
+
+    }
+    .contact_container{
+        gap: 1rem;
+        margin-top: 3rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+    
+    .contact_aside{
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+    .contact_form{
+        align-self: center;
+        margin-right: 1.5rem;
+    }
+}
+
+/*=================Media Query Phone============================*/
+@media screen and (max-width : 600px){
+.contact_container{
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-top: 0;
+    padding: 0;
+}
+.contact_form{
+    margin: 0 1.5rem 3rem;
+
+}
+.form_name{
+    flex-direction: column;
+}
+.form_name input[type="text"0]{
+    width: 100%;
+}
+}
