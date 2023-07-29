@@ -22,10 +22,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <!-----------------------------------------SWIPER JS EXTERNAL LINK----------------------------------------------->
+    <script src="https://unpkg.com/swiper@8.3.2/swiper-bundle.min.js"></script>
     <link
+      href="https://unpkg.com/swiper@8.3.2/swiper-bundle.min.css"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+
     <!----------------------------------------- EXTERNAL LINK OF STYLE SHEET----------------------------------------------->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -307,86 +309,92 @@
       </div>
     </section>
     <!-----------------------------------------TESTIMONIALS----------------------------------------------->
-    <section class="container testimonials_container mySwiper">
+    <section class="container testimonials_container">
       <h2>Student Testimonial</h2>
-      <div class="swiper-wrapper">
-        <article class="testmonial swiper-slide">
-          <div class="avtar">
-            <img src="./images/1.svg.jpg" alt="" />
-          </div>
-          <div class="testimonial__info">
-            <h5>Vineet kattal</h5>
-            <small>Student</small>
-          </div>
-          <div class="testimonial__body">
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-        </article>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <article class="swiper-slide">
+            <div class="avtar">
+              <img src="./images/1.svg.jpg" alt="" />
+            </div>
+            <div class="testimonial__info">
+              <h5>Vineet kattal</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </article>
+          <article class="swiper-slide">
+            <div class="avtar">
+              <img src="./images/1.svg.jpg" alt="" />
+            </div>
+            <div class="testimonial__info">
+              <h5>Vineet kattal</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </article>
+          <article class="swiper-slide">
+            <div class="avtar">
+              <img src="./images/1.svg.jpg" alt="" />
+            </div>
+            <div class="testimonial__info">
+              <h5>Vineet kattal</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </article>
+          <article class="swiper-slide">
+            <div class="avtar">
+              <img src="./images/1.svg.jpg" alt="" />
+            </div>
+            <div class="testimonial__info">
+              <h5>Vineet kattal</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </article>
+          <article class="swiper-slide">
+            <div class="avtar">
+              <img src="./images/1.svg.jpg" alt="" />
+            </div>
+            <div class="testimonial__info">
+              <h5>Vineet kattal</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </article>
+          <article class="swiper-slide">
+            <div class="avtar">
+              <img src="./images/1.svg.jpg" alt="" />
+            </div>
+            <div class="testimonial__info">
+              <h5>Vineet kattal</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </article>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
-        <article class="testmonial swiper-slide">
-          <div class="avtar">
-            <img src="./images/1.svg.jpg" alt="" />
-          </div>
-          <div class="testimonial__info">
-            <h5>Vineet kattal</h5>
-            <small>Student</small>
-          </div>
-          <div class="testimonial__body">
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-        </article>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
 
-        <article class="testmonial swiper-slide">
-          <div class="avtar">
-            <img src="./images/1.svg.jpg" alt="" />
-          </div>
-          <div class="testimonial__info">
-            <h5>Vineet kattal</h5>
-            <small>Student</small>
-          </div>
-          <div class="testimonial__body">
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-        </article>
-
-        <article class="testmonial swiper-slide">
-          <div class="avtar">
-            <img src="./images/1.svg.jpg" alt="" />
-          </div>
-          <div class="testimonial__info">
-            <h5>Vineet kattal</h5>
-            <small>Student</small>
-          </div>
-          <div class="testimonial__body">
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-        </article>
-
-        <article class="testmonial swiper-slide">
-          <div class="avtar">
-            <img src="./images/1.svg.jpg" alt="" />
-          </div>
-          <div class="testimonial__info">
-            <h5>Vineet kattal</h5>
-            <small>Student</small>
-          </div>
-          <div class="testimonial__body">
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-        </article>
-
-        <article class="testmonial swiper-slide">
-          <div class="avtar">
-            <img src="./images/1.svg.jpg" alt="" />
-          </div>
-          <div class="testimonial__info">
-            <h5>Vineet kattal</h5>
-            <small>Student</small>
-          </div>
-          <div class="testimonial__body">
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-        </article>
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
       </div>
     </section>
     <!-----------------------------------------FOOTER----------------------------------------------->
@@ -444,17 +452,44 @@
         <small>Copyright &copy: EGATOR </small>
       </div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./html/main.js"></script>
-
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        allowTouchMove: true,
+        slidesOffsetAfter: 0,
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          // when window width is >= 900px
+          900: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        },
+        // If we need pagination
         pagination: {
           el: ".swiper-pagination",
-          clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
         },
       });
     </script>
